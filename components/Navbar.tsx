@@ -20,7 +20,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="min-w-xl sticky top-0 bg-white/80 backdrop-blur-md shadow-md w-full z-50 transition-all duration-300">
+    <nav className="min-w-3xl sticky top-0 bg-white/80 backdrop-blur-md shadow-md w-full z-50 transition-all duration-300">
       <div className=" max-w-7xl w-auto px-6">
         <div className="flex justify-between  gap-8 items-center h-16 ">
           {/* Logo */}
