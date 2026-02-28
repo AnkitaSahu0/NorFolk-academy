@@ -46,7 +46,7 @@ export default function GalleryPage() {
       : images.filter((img) => img.category === filter);
 
   return (
-    <section id="gallery" className="min-w-3xl py-24 bg-gradient-to-b from-white to-gray-100 min-h-screen">
+    <section id="gallery" className=" py-24 bg-gradient-to-b from-white to-gray-100 min-h-screen">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* 🔥 BOLD HEADING */}

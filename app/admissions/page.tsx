@@ -12,7 +12,7 @@ export default function AdmissionsPage() {
   };
 
   return (
-    <section id="admissions" className="min-w-3xl py-24 bg-gradient-to-b from-white to-gray-50">
+    <section id="admissions" className=" py-24 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* 🔥 HERO HEADING */}

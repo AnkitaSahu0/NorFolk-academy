@@ -30,7 +30,7 @@ function Counter({ end }: { end: number }) {
 
 export default function AboutSection() {
   return (
-    <section id="about" className="min-w-3xl py-24 bg-gradient-to-b from-gray-50 to-white">
+    <section id="about" className=" py-24 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}

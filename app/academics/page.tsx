@@ -28,7 +28,7 @@ const programs = [
 
 export default function AcademicsPage() {
   return (
-    <section id="academics" className="min-w-3xl py-24 bg-gradient-to-b from-white to-gray-50">
+    <section id="academics" className=" py-24 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* 🔥 Heading */}

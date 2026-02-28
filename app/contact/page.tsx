@@ -12,7 +12,7 @@ export default function ContactPage() {
   };
 
   return (
-    <section id="contact" className="min-w-3xl py-24 bg-gradient-to-b from-white to-gray-100 min-h-screen">
+    <section id="contact" className=" py-24 bg-gradient-to-b from-white to-gray-100 min-h-screen">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* 🔥 HERO HEADING */}

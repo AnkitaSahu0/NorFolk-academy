@@ -6,7 +6,7 @@ import { Facebook, Instagram, Twitter, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="min-w-3xl bg-gray-900 text-gray-300 pt-16 pb-8 mt-20 relative">
+    <footer className=" bg-gray-900 text-gray-300 pt-16 pb-8 mt-20 relative">
       
       {/*  Top Gradient Line */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 to-purple-600"></div>
