@@ -8,14 +8,14 @@ export default function Footer() {
   return (
     <footer className="min-w-3xl bg-gray-900 text-gray-300 pt-16 pb-8 mt-20 relative">
       
-      {/* 🔥 Top Gradient Line */}
+      {/*  Top Gradient Line */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 to-purple-600"></div>
 
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="grid md:grid-cols-4 gap-10">
 
-          {/* 🏫 LOGO & ABOUT */}
+          {/*  LOGO & ABOUT */}
           <div>
             <h2 className="text-2xl font-bold text-white mb-4">
               NorFolk Academy
@@ -26,7 +26,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* 🔗 QUICK LINKS */}
+          {/*  QUICK LINKS */}
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">
               Quick Links
@@ -60,15 +60,15 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* 📞 CONTACT INFO */}
+          {/*  CONTACT INFO */}
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">
               Contact Info
             </h3>
             <ul className="space-y-3 text-sm">
-              <li>📍 123 School Road, Your City</li>
+              <li>📍 123 Delhi, India</li>
               <li>📞 +91 98765 43210</li>
-              <li>✉ info@yourschool.com</li>
+              <li>✉ info@norfolkacademycom</li>
               <li>🕒 Mon - Sat: 8AM - 4PM</li>
             </ul>
           </div>

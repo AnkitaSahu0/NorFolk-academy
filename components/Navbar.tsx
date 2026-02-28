@@ -20,11 +20,11 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="min-w-3xl sticky top-0 bg-white/80 backdrop-blur-md shadow-md w-full z-50 transition-all duration-300">
+    <nav className="min-w-xl sticky top-0 bg-white/80 backdrop-blur-md shadow-md w-full z-50 transition-all duration-300">
       <div className=" max-w-7xl w-auto px-6">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between  gap-8 items-center h-16 ">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex  items-center gap-10">
             {/* <img
               src="/logo.png"
               alt="School Logo"
@@ -36,7 +36,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-6">
+          <div className="hidden md:flex space-x-6  ">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
